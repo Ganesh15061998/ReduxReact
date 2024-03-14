@@ -1,0 +1,171 @@
+
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  background-color: rgb(214, 215, 217);
+}
+
+.mainbox{
+  display:inline-block;
+  text-align: start;
+  width:60% ;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10%;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow:inset ;
+  margin-left: 380px;
+  
+}
+
+#detelebtn{
+  padding-top: 5px;
+ color: rgb(198, 20, 20);
+ background-color: rgb(255, 255, 255);
+ border: none;
+ display:inline-block;
+ font-size: 55px;
+ font-family: 600;
+ width: 50px;
+ height: 50px;
+ border-radius:50% ;
+ -webkit-border-radius:50% ;
+ -moz-border-radius:50% ;
+ -ms-border-radius:50% ;
+ -o-border-radius:50% ;
+}
+.tital{
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+.discription{
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+.timedate{
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+.pagination-container{
+  display:float;
+}
+
+
+
+.leftbox{
+  position:absolute;
+  left: 50px;
+  top: 5%;
+  box-shadow: inset;
+}
+
+.leftgridone{
+  background-color: white;
+  padding: 2px;
+  width: 290px;
+  height: 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+.leftgridTwo{
+  background-color: white;
+  margin-top: 32px;
+  
+  padding: 2px;
+  width: 290px;
+  height: 130px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.viewtogghle{
+  margin-top: 1px;
+  padding-top: 1px;
+}
+.secondBoxLeft{
+  display: grid;
+  row-gap: 1px;
+  grid-template-columns: auto auto auto;
+  margin-left: 55px;
+  margin-top: 1px;
+  padding-top: 1px;
+}
+.secone{
+  background-color: rgb(190, 187, 187);
+  height: 50px;
+  
+  padding: 10px;
+  margin-top: 1;
+
+}
+.sectwo{
+  background-color: rgb(184, 246, 210);
+  padding: 10px;
+  margin-top: 1;
+  
+}
+
+.leftgridThree{
+  background-color: white;
+  margin-top: 32px;
+  
+  padding: 2px;
+  width: 290px;
+  height: 140px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.wearelistening{
+  margin-top: 1px;
+  padding-top: 1px;
+  padding: 10px;
+  background-color: rgb(85, 173, 99);
+  width: 230px;
+  margin-left: 24px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
